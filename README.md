@@ -25,7 +25,7 @@ Trabajos que entreguen imágenes (*screenshots*) se calificarán sobre **4.0**.
 
 > **_IMPORTANTE:_** Por favor no subir su tarea a [GitHub](https://github.com) hasta tanto usted no la haya completado. 
 > Por tanto, se sugiere que cree `branches` de la tarea y una vez un ítem este listo entonces hace el corresponiente `merge` del `branch`. 
-> Una vez usted sube sus cambios al GitHub el profesor podrá comentar sus cambios. 
+> Una vez usted sube sus cambios a GitHub el profesor podrá comentar sus cambios. 
 > Cualquier **adición** al código que no se haya discutido con el profesor no será **considerado** para la nota final de la asignación y dicha adición será considerada como entregada fuera de tiempo. 
 
 ---
@@ -41,6 +41,8 @@ A continuación se presentan las diferentes actividades que el estudiante deber�
 * [Directorios compartidos](#directorios-compartidos)
 * [Multiples maquinas](#multiples-maquinas)
 
+---
+
 ## Creacion de maquina virtual
 
 En esta actividad usted deberá evidenciar que ha sido capaz de: 
@@ -53,7 +55,7 @@ En esta actividad usted deberá evidenciar que ha sido capaz de:
 
 Muestre evidencia que logró cumplir con lo planteado en los siguientes enlaces:
 
-* [**ENLACE A ASCIINEMA**](https://asciinema.org)
+* [**ENLACE A VIDEO EN ASCIINEMA**](https://asciinema.org)
 * [**ENLACE A VAGRANTFILE**](Vagrantfile-01)
 
 ---
@@ -76,8 +78,8 @@ Usando el comando `VBoxManage` habilite el *port forwarding* de modo que el puer
 
 Muestre evidencia que logró cumplir con lo planteado en los siguientes enlaces:
 
-* [**ENLACE A ASCIINEMA CON VBOXMANAGE**](https://asciinema.org)
-* [**ENLACE A ASCIINEMA CON VAGRANTIFLE**](https://asciinema.org)
+* [**ENLACE A VIDEO EN ASCIINEMA CON VBOXMANAGE**](https://asciinema.org)
+* [**ENLACE A VIDEO EN ASCIINEMA CON VAGRANTIFLE**](https://asciinema.org)
 * [**ENLACE A VAGRANTFILE**](Vagrantfile-02)
 
 ---
@@ -94,7 +96,7 @@ Validar que efectivamente el servidor web fue instalado exitósamente.
 
 Muestre evidencia que logró cumplir con lo planteado en los siguientes enlaces:
 
-* [**ENLACE A ASCIINEMA**](https://asciinema.org)
+* [**ENLACE A VIDEO EN ASCIINEMA**](https://asciinema.org)
 * [**ENLACE A VAGRANTFILE**](Vagrantfile-03)
 * [**ENLACE A SCRIPT DE INSTALACIÓN**](install-apache.sh)
 
@@ -115,7 +117,7 @@ Construya un `Vagrantfile` que al ser invocado cree una máquina virtual con las
 
 Muestre evidencia que logró cumplir con lo planteado en los siguientes enlaces:
 
-* [**ENLACE A ASCIINEMA**](https://asciinema.org)
+* [**ENLACE A VIDEO EN ASCIINEMA**](https://asciinema.org)
 * [**ENLACE A VAGRANTFILE**](Vagrantfile-04)
 * [**ENLACE A SCRIPT DE INSTALACIÓN**](install-apache.sh)
 
@@ -139,7 +141,7 @@ Hola mundo
 
 Muestre evidencia que logró cumplir con lo planteado en los siguientes enlaces:
 
-* [**ENLACE A ASCIINEMA**](https://asciinema.org)
+* [**ENLACE A VIDEO EN ASCIINEMA**](https://asciinema.org)
 * [**ENLACE A VAGRANTFILE**](Vagrantfile-05)
 
 ---
@@ -156,5 +158,5 @@ La máquina `web1` deberá accedr al directorio `html` del *host* y la máquina 
 
 Muestre evidencia que logró cumplir con lo planteado en los siguientes enlaces:
 
-* [**ENLACE A ASCIINEMA**](https://asciinema.org)
+* [**ENLACE A VIDEO EN ASCIINEMA**](https://asciinema.org)
 * [**ENLACE A VAGRANTFILE**](Vagrantfile-06)
