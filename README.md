@@ -12,7 +12,7 @@ En cada una de las actividades el estudiante deberá proveer lo siguiente:
 
 * En cada uno de los ítems se hace referencia a un archivo `Vagrantfile-nn`. El `01` para la actividad `01`, el `02` para la actividad `02` y así sucesivamente.
 
-* Los videos no deberían tener una duración superior a 2 minutos.
+* Los videos no deberían tener una duración superior a 3 minutos.
 
 **Opcional para quienes no puedan mostrar video**
 
