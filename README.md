@@ -24,8 +24,9 @@ Trabajos que entreguen imágenes (*screenshots*) se calificarán sobre **4.0**.
 ---
 
 > **_IMPORTANTE:_** Por favor no subir su tarea a [GitHub](https://github.com) hasta tanto usted no la haya completado. 
-> Cualquier **adición** al código que no se haya discutido con el profesor no será **considerado** para la nota final de la asignación. 
-> El estudiante **Sí** podrá una vez haya "terminado" todos los puntos someter su tarea y el profesor llevará a cabo el proceso de retroalimentación.
+> Por tanto, se sugiere que cree `branches` de la tarea y una vez un ítem este listo entonces hace el corresponiente `merge` del `branch`. 
+> Una vez usted sube sus cambios al GitHub el profesor podrá comentar sus cambios. 
+> Cualquier **adición** al código que no se haya discutido con el profesor no será **considerado** para la nota final de la asignación y dicha adición será considerada como entregada fuera de tiempo. 
 
 ---
 
