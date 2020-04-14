@@ -23,7 +23,9 @@ Trabajos que entreguen imágenes (*screenshots*) se calificarán sobre **4.0**.
 
 ---
 
-> **_IMPORTANTE:_** Por favor no subir su tarea a [GitHub](https://github.com) hasta tanto usted no la haya completado. Cualquier **adición** al código que no se haya discutido con el profesor no será **considerado** para la nota fianl de la asignación. El estudiante **Sí** podrá una vez haya "terminado" todos los puntos someter su tarea y el profesor llevará a cabo el proceso de retroalimentación.
+> **_IMPORTANTE:_** Por favor no subir su tarea a [GitHub](https://github.com) hasta tanto usted no la haya completado. 
+> Cualquier **adición** al código que no se haya discutido con el profesor no será **considerado** para la nota final de la asignación. 
+> El estudiante **Sí** podrá una vez haya "terminado" todos los puntos someter su tarea y el profesor llevará a cabo el proceso de retroalimentación.
 
 ---
 
