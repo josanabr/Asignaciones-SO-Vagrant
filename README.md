@@ -3,7 +3,7 @@
 En esta tarea el estudiante deberá evienciar sus habilidades en el uso de la herramienta [Vagrant](https://vagrantup.com). 
 En cada una de las actividades el estudiante deberá proveer lo siguiente:
 
-* Un video colgado en la plataforma [asciinema](https://asciinema.org/) donde se de evidencie que se llevó a cabo la tarea requerida.
+* Un video colgado en la plataforma [asciinema](https://asciinema.org/) donde se de evidencie que se llevó a cabo la tarea requerida. Elementos a considerar:
   * Evidencia de las máquinas existentes. `VBoxManage list vms`
   * Ejecución del comando para la creación de la máquina. `vagrant up`
   * Evidenciar que la máquina creada cuenta con las características requeridas. `VBoxManage showvminfo`
@@ -40,6 +40,7 @@ A continuación se presentan las diferentes actividades que el estudiante deber�
 * [Redireccion de puertos](#redireccion-de-puertos-de-red)
 * [Directorios compartidos](#directorios-compartidos)
 * [Multiples maquinas](#multiples-maquinas)
+* [Despliegue HAProxy](#despliegue-haproxy)
 
 ---
 
@@ -160,3 +161,41 @@ Muestre evidencia que logró cumplir con lo planteado en los siguientes enlaces:
 
 * [**ENLACE A VIDEO EN ASCIINEMA**](https://asciinema.org)
 * [**ENLACE A VAGRANTFILE**](Vagrantfile-06)
+
+---
+
+## Despliegue HAProxy
+
+En la última clase se presentó el despliegue de HAProxy.
+HAProxy es un servicio de red que permite el balanceo de carga en una granja de servidores, particularmente servidores web.
+Sin embargo, HAProxy ha sido usado para balancear la carga de otro tipo de servicios basados en TCP. 
+
+En este caso usted usará los siguientes archivos para llevar a cabo el despliegue de este servicio HAProxy.
+
+* [Vagrantfile](Vagrantfile-07) este `Vagrantfile` provee muchas cosas ya realizadas:
+
+  * Definición de las tres máquinas: `web01`, `web02`, `haproxy`.
+
+  * Asignación de IPs para cada una de las máquinas: `web01: 192.168.200.3`, `web02: 192.168.200.4`, `haproxy: 192.168.200.5`. 
+
+  * Creación de directorios compartidos para cada uno de los servidores web: `web01: ./web01`, `web02: ./web02`. **Asegúrese que a la hora de usar este Vagrantfile para el despliegue los directorios** `./web01` y `./web02` **estén creados**.
+
+    * En el directorio `./web01` debe ir [este archivo `index.html`](index.html.01). Este archivo debe ser renombrado como `index.html`.
+
+    * En el directorio `./web02` debe ir [este archivo `index.html`](index.html.02). Este archivo debe ser renombrado como `index.html`.
+
+  * El script para el despliegue de Apache2 es provisto.
+
+* [web.sh](web.sh) script para el despliegue de servicios Apache2.
+
+### Su trabajo consiste en...
+
+**Su tarea es crear el archivo** `haproxy.sh` **que se invoca a la hora de crear la máquina virtual** `haproxy`. El `haproxy.sh` contiene los pasos que permiten el despliegue del servicio HAProxy y que se describen en este [artículo](https://www.howtoforge.com/tutorial/ubuntu-load-balancer-haproxy/).
+
+
+**Respuesta**
+
+Muestre evidencia que logró cumplir con lo planteado en los siguientes enlaces:
+
+* [**ENLACE A VIDEO EN ASCIINEMA**](https://asciinema.org)
+* [**ENLACE A `haproxy.sh`**](haproxy.sh)
